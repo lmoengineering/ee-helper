@@ -1,0 +1,22 @@
+{   
+    "name": "lmoengineering/ee-helper",
+    "type": "ee3-addon",
+    "description": "Global addons used in all our EE3 setups",
+    "keywords": ["eecms", "ee3", "ee helper"],
+    "homepage": "http://github.com/lmoengineering/ee-helper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jerry Price",
+            "email": "jerryprice@lmo.com",
+            "homepage": "https://www.lmo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.10",
+        "composer/installers": ">=1.1.0"
+    },
+    "extra": {
+        "installer-name": "lmo"
+    }
+}
